@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ONGC News and Sentiment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- External CSS and JS -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+  <h1>ONGC News and Sentiment Dashboard</h1>
+
+  <h2>ONGC Stock Price: <span id="stock-price">Loading...</span> INR</h2>
+
+  <hr>
+
+  <h2>Price vs. Sentiment Trend (Last 24h)</h2>
+  <canvas id="priceSentimentChart" width="800" height="400"></canvas>
+
+  <hr>
+
+  <h2>Latest ONGC News</h2>
+  <div id="news-container"></div>
+</body>
+</html>

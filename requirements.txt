@@ -1,0 +1,8 @@
+flask
+requests
+yfinance
+nltk
+pandas
+chart.js
+transformers
+torch
